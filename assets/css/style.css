@@ -1743,6 +1743,15 @@ footer p{
     color: #fff;
     padding: 10px 0px;
 }
+
+footer a {
+    color: #FEC73C;
+}
+
+footer a:hover {
+    color: #F4D652;
+}
+
 .sicon7:hover{
     background: #1aa0ff;
 }
