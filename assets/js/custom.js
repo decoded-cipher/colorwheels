@@ -297,16 +297,16 @@ var user_lat, user_lng;
     function initMap() {
         map = new google.maps.Map(document.getElementById('googleMap'), {
             center: {
-                lat: 23.782062,
-                lng: 90.416053
+                lat: 9.537056,
+                lng: 76.672683
             },
-            zoom: 15,
+            zoom: 12,
             scrollwheel: false,
             styles: grayStyles
         });
               
       var marker = new google.maps.Marker({
-        position:  {  lat: 23.782062, lng: 90.416053},
+        position:  {  lat: 9.537056, lng: 76.672683},
         map: map,
         icon: "assets/images/gmap.png"
       });
