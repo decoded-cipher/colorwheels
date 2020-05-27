@@ -219,7 +219,8 @@
                     that
                     has not had something that would consider the arts songs.</p>
                 <div class="btn-contact">
-                    <span class="con-btn"><a href="Contact-us.html">Contact Us</a></span>
+                    <span class="con-btn"><a style="cursor: pointer;" data-toggle="modal" data-target="#getaQuote">Get a
+                            Quote</a></span>
                 </div>
             </div>
         </div>
@@ -827,7 +828,8 @@
 
     <!--Footer Section-->
     <footer>
-        <p>© 2020 All Rights Reserved | Powered by <a target="blank" href="https://arjunkrishna.in">Cipher Creations</a></p>
+        <p>© 2020 All Rights Reserved | Powered by <a target="blank" href="https://arjunkrishna.in">Cipher Creations</a>
+        </p>
     </footer>
     <!--/Footer Section-->
 
@@ -855,6 +857,111 @@
 </body>
 
 
-<!-- Mirrored from demo.voidcoders.com/htmldemo/we-paintV2/wepaint-yellow/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 May 2020 02:58:13 GMT -->
+<!--______________________________________________________________________________________________________________________________________-->
+<!--______________________________________________________________________________________________________________________________________-->
+
+
+<!-- Quotation Modal -->
+<div class="modal animated fadeIn" id="getaQuote" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content e-m-contents">
+            <div class="modal-body">
+                <button type="button" class="close es-close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="card estimate-card es-card-2">
+                    <span class="flaticon-paint esc-paint"></span>
+                    <h2>Get Quotation Now</h2>
+                    <article class="card-body">
+                        <form>
+                            <span class="e-ctl">May I know your name?</span>
+                            <div class="form-row pt-2">
+                                <div class="col form-group">
+                                    <input type="text" class="form-control" placeholder="First Name" id="firstName"
+                                        required>
+                                </div> <!-- form-group end.// -->
+                                <div class="col form-group">
+                                    <input type="text" class="form-control" placeholder="Last Name" id="lastName"
+                                        required>
+                                </div> <!-- form-group end.// -->
+                            </div> <!-- form-row end.// -->
+
+                            <span class="e-ctl">Please provide your contact details...</span>
+                            <div class="form-row pt-2">
+                                <div class="form-group col">
+                                    <input type="text" class="form-control" placeholder="Email Address" id="emailAddress"
+                                        required>
+                                </div> <!-- form-group end.// -->
+                            </div> <!-- form-row.// -->
+                            <div class="form-row pt-2">
+                                <div class="form-group col">
+                                    <input type="text" class="form-control" placeholder="Mobile Number" id="mobileNumber"
+                                        required>
+                                </div> <!-- form-group end.// -->
+                            </div> <!-- form-row.// -->
+
+                            <span class="e-ctl">Provide location credentials...</span>
+                            <div class="form-row pt-2">
+                                <div class="form-group col">
+                                    <input type="text" class="form-control" placeholder="District" id="district"
+                                        required>
+                                </div> <!-- form-group end.// -->
+                                <div class="form-group col">
+                                    <input type="text" class="form-control" placeholder="PIN Code" id="pincode"
+                                        required>
+                                </div> <!-- form-group end.// -->
+                            </div> <!-- form-row.// -->
+
+                            <span class="e-ctl">Mention Site Details</span>
+                            <div class="form-row pt-2">
+                                <div class="form-group col">
+                                    <input type="text" class="form-control" placeholder="Carpet Area (m²)" id="carpetArea">
+                                </div> <!-- form-group end.// -->
+                                <div class="form-group col">
+                                    <input type="text" class="form-control" placeholder="1BHK / 2BHK / 3BHK" id="bhk">
+                                </div> <!-- form-group end.// -->
+                            </div> <!-- form-row.// -->
+
+                            <span class="e-ctl">What mode of service do you expect?</span>
+                            <div class="form-group p-2">
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="serviceMode" value="1"
+                                        checked>
+                                    <span class="form-check-label"> Fresh Painting</span>
+                                </label>
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="serviceMode" value="2">
+                                    <span class="form-check-label"> Regular Painting</span>
+                                </label>
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="serviceMode" value="3">
+                                    <span class="form-check-label"> Waterproofing</span>
+                                </label>
+                            </div> <!-- form-group end.// -->
+                            
+                            <div class="form-group">
+                                <button type="submit" class="btn-block ebtn" id="quotationSubmit">Get Quotation
+                                    Now</button>
+                            </div>
+                            <!-- form-group// -->
+                            <!-- <div class="form-group">
+                                <button type="button" class="btn-block ebtn-r" id="estimate-reset-btn">Reset
+                                    Quotation</button>
+                            </div> -->
+                            <!-- form-group// -->
+
+                        </form>
+                    </article> <!-- card-body end .// -->
+                </div> <!-- card.// -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Quotation Model-->
+
+
+<!--______________________________________________________________________________________________________________________________________-->
+<!--______________________________________________________________________________________________________________________________________-->
+
 
 </html>
