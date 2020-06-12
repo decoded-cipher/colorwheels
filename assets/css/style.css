@@ -3644,3 +3644,16 @@ section.blog-details-2 {
     padding-bottom: 25px;
 }
 /*End b-details img*/
+
+
+.my_new {
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+}
+
+.my_new_img {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
