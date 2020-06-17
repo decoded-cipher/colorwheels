@@ -2562,7 +2562,7 @@ section.About-team {
 }
 .t-members {
     position: absolute;
-    right: 3%;
+    right: 8%;
     text-align: center;
     top: 30%;
 }
@@ -2734,9 +2734,8 @@ section.care-about {
     left: 20px;
 }
 span.cap-m {
-    font-size: 42px;
-    margin-left: 8px;
-    line-height: 45px;
+    font-size: 25px;
+    line-height: 30px;
     font-family: 'Arvo', serif;
 }
 .cap-1 P {
