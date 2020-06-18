@@ -40,6 +40,8 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -498,8 +500,28 @@
     </section>
     <!--/Recent Section-->
 
-
-
+    <section class="completed-project">
+        <div class="container">
+            <div class="recent-top">
+                <p>Recent Project</p>
+                <h3>Our Recent Completed Projects</h3>
+                <p>Whereas digital stuff is a bit more ethereal. I like the trophy on my
+                    shelf, the presence in my home nice book is just as valuable.</p>
+            </div>
+            <div class="autoplay">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+                <img src="assets/images/logo111.png" alt="">
+            </div>
+        </div>
+    </section>
 
 
     <!--Project Ask Section-->
@@ -548,13 +570,13 @@
                     <div class="col-md-5">
                         <div class="about-company">
                             <h4>About Company</h4>
-                            <p>Colour Wheels is Professional Painting Solutions Company, serving across 
-                                breath of Residential and Commercial Home Painting – Interior to Exterior, 
+                            <p>Colour Wheels is Professional Painting Solutions Company, serving across
+                                breath of Residential and Commercial Home Painting – Interior to Exterior,
                                 Budget(Rental) Painting to Texture.<br>
-                                We are committed to provide best painting experience to our customers. 
-                                Currently we operate in Southern Kerala and looking forward to add happy 
+                                We are committed to provide best painting experience to our customers.
+                                Currently we operate in Southern Kerala and looking forward to add happy
                                 customers across the State of Kerala.</p>
-                        
+
                         </div>
                     </div>
                     <div class="col-md-2">
@@ -591,7 +613,7 @@
                                     <li><a href="#"><i class="fab fa-facebook-f sicon"></i></a></li>
                                     <li><a href="#"><i class="fab fa-instagram sicon"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter sicon"></i></a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -630,6 +652,21 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!--Custom JS-->
     <script src="assets/js/custom.js"></script>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $('.autoplay').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    </script>
+
 </body>
 
 
