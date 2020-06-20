@@ -1550,7 +1550,7 @@ span.learn-li {
     background-image: url(../images/nav-backg0.png);
     background-size: 100% 100%;
     top: 0;
-    left: 100px;
+    /* left: 100px; */
 }
 .sbp-4::before{
     background-image: url(../images/nav-backg-2.html);

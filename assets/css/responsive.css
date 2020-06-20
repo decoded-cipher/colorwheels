@@ -873,10 +873,10 @@ ul.navbar-nav::-webkit-scrollbar {
         line-height: 20px;
     }
 
-    .sp-logo img {
+    /* .sp-logo img {
          display: none;
        
-    }
+    } */
     .ficon-bg-1:before {
         top: -133px;
         left: -151px;
@@ -1067,9 +1067,9 @@ ul.navbar-nav::-webkit-scrollbar {
     .sp-subscription-form {
         padding-top: 25px;
     }
-    .sp-logo {
+    /* .sp-logo {
         display: none;
-    }
+    } */
     .sp-subscription-form {
         padding-top: 4px;
     }
