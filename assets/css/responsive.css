@@ -291,7 +291,8 @@
     }
     header.header-area {
         position: inherit;
-       background-color: #fec73c;
+        background-image: url(/assets/images/proj-ask.png);
+       /* background-color: #fec73c; */
     
    }
    header.header-area.header-area4 {
